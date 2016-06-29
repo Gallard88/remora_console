@@ -1,0 +1,16 @@
+<library path="src">
+  <class name="My Plugin" type="ecu_console.ecu_console.MyPlugin" base_class_type="rqt_gui_py::Plugin">
+    <description>
+    </description>
+    <qtgui>
+      <group>
+        <label>Remora</label>
+        <icon type="theme">folder</icon>
+        <statustip>Plugins related to the Sunfish ROV.</statustip>
+      </group>
+      <label>ECU Console</label>
+      <icon type="theme">media-playback-start</icon>
+      <statustip>Lists all ECU related information</statustip>
+    </qtgui>
+  </class>
+</library>
